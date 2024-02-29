@@ -1,6 +1,6 @@
 # 1.2
 
-#Comparação de Números
+# 2 Comparação de Números
 
 # 2 - Faça um Programa que peça dois números ao usuário e imprima na tela o maior deles ou, caso sejam iguais, imprima ‘Números iguais’.
 

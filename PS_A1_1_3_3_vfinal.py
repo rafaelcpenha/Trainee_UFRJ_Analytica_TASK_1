@@ -40,4 +40,5 @@ r2 = np.corrcoef(idhm, expectativa_vida)[0, 1]**2
 print(f"R²: {r2}")
 
 # Imprimindo a equação da reta de regressão
-print(f"Equação da reta: Expectativa de Vida = {reg[1]} + {reg[0]} * IDHM")
+print(f"\nEquação da reta: Expectativa de Vida = {reg[1]} + {reg[0]} * IDHM")
+print("\nO gráfico revela uma correlação superior a 95% entre o IDHM e a expectativa de vida. Essa forte correlação é evidenciada pela concentração dos pontos próximos à linha de regressão linear. Isso significa que o IDHM é um indicador muito forte da expectativa de vida. No entanto, é importante considerar outros fatores socioeconômicos, como renda, educação e acesso à saúde, para obter explicações mais profundas sobre o impacto do IDHM na expectativa de vida.")
